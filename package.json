@@ -2,7 +2,7 @@
     "name": "typescript-template",
     "version": "1.0.0",
     "description": "This is a template for creating Typescript projects",
-    "main": "index.js",
+    "main": "index.ts",
     "scripts": {
         "start": "npm run dev",
         "dev": "nodemon src/index.ts",
