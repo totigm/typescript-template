@@ -11,6 +11,7 @@
         "lint:fix": "eslint src --fix && prettier --write src"
     },
     "dependencies": {
+        "dotenv": "^10.0.0",
         "tslib": "^2.2.0"
     },
     "devDependencies": {
