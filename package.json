@@ -8,7 +8,7 @@
         "build": "tsc",
         "dev": "nodemon src/index.ts",
         "preprod": "npm run build",
-        "prod": "node ./dist/index.js",
+        "prod": "node ./build/index.js",
         "lint": "eslint src",
         "lint:fix": "eslint src --fix"
     },
