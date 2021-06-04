@@ -5,10 +5,12 @@
     "main": "index.ts",
     "scripts": {
         "start": "npm run dev",
+        "build": "tsc",
         "dev": "nodemon src/index.ts",
-        "prod": "set NODE_ENV=prod && tsc && node ./dist/index.js",
-        "lint": "eslint src && prettier --check src",
-        "lint:fix": "eslint src --fix && prettier --write src"
+        "preprod": "npm run build",
+        "prod": "node ./dist/index.js",
+        "lint": "eslint src",
+        "lint:fix": "eslint src --fix"
     },
     "dependencies": {
         "dotenv": "^10.0.0",
