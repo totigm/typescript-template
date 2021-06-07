@@ -9,6 +9,7 @@
     "rules": {
         "no-console": "off",
         "@typescript-eslint/lines-between-class-members": "off",
+        "max-len": ["warn", { "code": 100 }],
         "@typescript-eslint/quotes": ["error", "single"],
         "@typescript-eslint/naming-convention": [
             "error",

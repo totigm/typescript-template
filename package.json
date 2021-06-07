@@ -1,14 +1,19 @@
 {
     "name": "typescript-template",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "description": "This is a template for creating Typescript projects",
-    "main": "index.ts",
+    "main": "./build/index.js",
+    "types": "./build/index.d.ts",
+    "files": [
+        "build/**/*"
+    ],
     "scripts": {
         "start": "npm run dev",
         "build": "tsc",
         "dev": "nodemon src/index.ts",
         "preprod": "npm run build",
         "prod": "node ./build/index.js",
+        "prepublish": "npm run lint:fix && tsc",
         "lint": "eslint src",
         "lint:fix": "eslint src --fix"
     },
