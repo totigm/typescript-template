@@ -2,20 +2,18 @@
     "name": "typescript-template",
     "version": "0.0.1",
     "description": "This is a template for creating Typescript projects",
-    "main": "./build/index.js",
-    "types": "./build/index.d.ts",
-    "files": [
-        "build/**/*"
-    ],
+    "main": "dist/index.js",
+    "bin": "dist/index.js",
+    "types": "dist/index.d.ts",
     "scripts": {
         "start": "npm run dev",
         "build": "tsc",
-        "dev": "nodemon src/index.ts",
+        "dev": "nodemon --config nodemon.json src/index.ts",
         "preprod": "npm run build",
-        "prod": "node ./build/index.js",
-        "prepublish": "npm run lint:fix && tsc",
-        "lint": "eslint src",
-        "lint:fix": "eslint src --fix"
+        "prepublish": "npm run build",
+        "prod": "set NODE_ENV=prod && tsc && node ./dist/index.js",
+        "lint": "eslint src && prettier --check src",
+        "lint:fix": "eslint src --fix && prettier --write src"
     },
     "dependencies": {
         "dotenv": "^10.0.0",
