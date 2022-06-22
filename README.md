@@ -44,7 +44,7 @@ Runs the linter and logs every error and warning to the console.
 
 Publish your app to [npm](https://www.npmjs.com).
 
-> _The linter will be run before publishing the package._
+> Check your `package.json` to update its properties.
 
 ## ✨ Contributing
 
