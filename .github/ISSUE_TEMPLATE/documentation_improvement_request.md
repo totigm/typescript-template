@@ -1,6 +1,6 @@
 ---
-name: "\U0001F4DD Documentation improvement"
-about: Create a report to help us improve the documentation
+name: "\U0001F4DD Documentation improvement request"
+about: Create a request to help us improve the documentation
 title: "📝 "
 labels: documentation
 assignees: totigm
