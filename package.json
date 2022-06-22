@@ -7,10 +7,10 @@
     "types": "dist/index.d.ts",
     "scripts": {
         "start": "npm run dev",
-        "build": "tsc",
         "dev": "nodemon --config nodemon.json src/index.ts",
-        "preprod": "npm run build",
+        "build": "tsc",
         "prepublish": "npm run build",
+        "preprod": "npm run build",
         "prod": "set NODE_ENV=prod && tsc && node ./dist/index.js",
         "lint": "eslint src && prettier --check src",
         "lint:fix": "eslint src --fix && prettier --write src"
