@@ -4,6 +4,10 @@ This is a template for creating Typescript projects.
 
 This template will help you start a Typescript project without needing to worry about any configuration.
 
+## 📋 Prerequisites
+
+-   [**Node.js**](https://nodejs.org): You need to have Node.js installed on your computer to run this bot. You can download it [here](https://nodejs.org/en/download).
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -41,3 +45,21 @@ Runs the linter and logs every error and warning to the console.
 Publish your app to [npm](https://www.npmjs.com).
 
 > _The linter will be run before publishing the package._
+
+## ✨ Contributing
+
+Contributions are more than welcome!
+
+We think that you might have great ideas to make this project even better, so if you do, please create a pull request and/or issue following our [contribution guidelines](./docs/CONTRIBUTING.md).
+
+## 😃 Author
+
+[TotiGM](https://github.com/totigm)
+
+## 📄 License
+
+[MIT](./LICENSE)
+
+<hr />
+
+This project was made with ❤ and TypeScript
