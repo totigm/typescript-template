@@ -1,6 +1,7 @@
 {
     "semi": true,
     "trailingComma": "all",
-    "printWidth": 100,
-    "tabWidth": 4
+    "printWidth": 140,
+    "tabWidth": 4,
+    "endOfLine": "auto"
 }

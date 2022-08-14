@@ -5,11 +5,12 @@
         "project": "./tsconfig.json"
     },
     "plugins": ["@typescript-eslint"],
-    "extends": ["airbnb-typescript", "prettier"],
+    "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier"],
     "rules": {
         "no-console": "off",
         "@typescript-eslint/lines-between-class-members": "off",
         "@typescript-eslint/no-unused-expressions": ["warn", { "allowTernary": true }],
+        "prefer-template": "off",
         "@typescript-eslint/quotes": ["warn", "double"],
         "@typescript-eslint/naming-convention": [
             "error",
