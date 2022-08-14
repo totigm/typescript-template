@@ -63,7 +63,7 @@ Pull Requests are a great way to keep track of tasks, enhancements, and bugs for
 
 #### Writing great pull requests
 
-In order to follow styling guides and keep the code well formatted, please run the [ESLint](https://eslint.org) and [Prettier](https://prettier.io) tools before submitting your pull request. You can use the `npm run lint` or `yarn lint` commands to verify warnings and errors. Then, use `npm run lint:fix` or `yarn lint:fix` to fix the auto-fixable errors.
+In order to follow styling guides and keep the code well formatted, please run the [ESLint](https://eslint.org) and [Prettier](https://prettier.io) tools before submitting your pull request. You can use the `npm run lint` or `yarn lint` commands to verify warnings and errors. Then, use `npm run check:fix` or `yarn check:fix` to fix the auto-fixable errors.
 
 - Choose a descriptive title and add the context of the changes using brakes.
   - ex: `[Feature] Add pre-commit hooks`, `[Documentation improvement] Add deployment guide`

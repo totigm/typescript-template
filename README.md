@@ -25,6 +25,12 @@ You will also see any lint errors/warnings in the console.
 
 > _`yarn dev` and `npm run dev` do the same._
 
+### `yarn prod` or `npm run prod`
+
+Runs the app in the production mode.\
+
+Before running the app, it will run the linter, format code with Prettier, and build the project.
+
 ### `yarn build` or `npm run build`
 
 Builds the app for production to the `build` folder.
@@ -39,27 +45,51 @@ Runs the linter and logs every error and warning to the console.
 
 > _`yarn lint:fix` and `npm run lint:fix` fix every autofixable error/warning._
 
+### `yarn prettier` or `npm run prettier`
 
-### `yarn publish` or `npm publish`
+Runs Prettier and logs every error and warning to the console.
 
-Publish your app to [npm](https://www.npmjs.com).
+> _`yarn prettier:fix` and `npm run prettier:fix` fix every autofixable error/warning._
 
-> Check your `package.json` to update its properties.
+### `yarn check` or `npm run check`
 
-## ✨ Contributing
+Runs both the linter and Prettier and logs every error and warning to the console.
+
+> _`yarn check:fix` and `npm run check:fix` fix every autofixable error/warning._
+
+## 👤 Author
+
+<a href="https://github.com/totigm" target="_blank">
+  <img alt="GitHub: totigm" src="https://img.shields.io/github/followers/totigm?label=Follow @totigm&style=social">
+</a>
+<br>
+<a href="https://twitter.com/totigm8" target="_blank">
+  <img alt="Twitter: totigm8" src="https://img.shields.io/twitter/follow/totigm8?style=social" />
+</a>
+<br>
+<a href="https://linkedin.com/in/totigm" target="_blank">
+  <img alt="LinkedIn: totigm" src="https://img.shields.io/badge/LinkedIn-@totigm-green?style=social&logo=linkedin" />
+</a>
+<br>
+<a href="https://www.npmjs.com/~totigm" target="_blank">
+  <img alt="NPM: totigm" src="https://img.shields.io/badge/NPM-@totigm-green?style=social&logo=npm" />
+</a>
+
+## 🤝 Contributing
 
 Contributions are more than welcome!
 
-We think that you might have great ideas to make this project even better, so if you do, please create a pull request and/or issue following our [contribution guidelines](./docs/CONTRIBUTING.md).
+We think that you might have great ideas to make this project even better. If you do, please create a pull request and/or issue following the [contribution guidelines](./docs/CONTRIBUTING.md).
 
-## 😃 Author
+## ⭐️ Show your support
 
-[TotiGM](https://github.com/totigm)
+Give a ⭐️ if this project helped you!
 
-## 📄 License
+## 📝 License
 
-[MIT](./LICENSE)
+Copyright © 2022 [Toti Muñoz](https://github.com/totigm).<br />
+This project is [MIT](https://github.com/totigm/ts-package-template/blob/master/LICENSE) licensed.
 
-<hr />
+---
 
 This project was made with ❤ and TypeScript
