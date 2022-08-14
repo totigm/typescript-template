@@ -8,7 +8,7 @@ assignees: totigm
 ---
 
 ### Environment
-- Release: Which [release](https://github.com/totigm/twitter-crypto-bot/releases) version of the project you are using.
+- Release: Which [release](https://github.com/totigm/typescript-template/releases) version of the project you are using.
 - Node: Which [Node.js](https://nodejs.org/) version you are using.
 - OS: Which operating system you are using and its version.
 
