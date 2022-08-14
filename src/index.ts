@@ -1,3 +1,1 @@
-import config from "./config";
-
-console.log(`This is the Typescript template at the ${config.node_env} environment`);
+console.log("This is a Typescript template!");
