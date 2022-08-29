@@ -27,7 +27,7 @@ You will also see any lint errors/warnings in the console.
 
 ### `yarn prod` or `npm run prod`
 
-Runs the app in the production mode.\
+Runs the app in the production mode.
 
 Before running the app, it will run the linter, format code with Prettier, and build the project.
 
@@ -56,6 +56,16 @@ Runs Prettier and logs every error and warning to the console.
 Runs both the linter and Prettier and logs every error and warning to the console.
 
 > _`yarn check:fix` and `npm run check:fix` fix every autofixable error/warning._
+
+## 🐳 Docker
+
+You can use [Docker](https://www.docker.com) to run your app. This project has a multi-stage build process so your final image doesn't have any TypeScript files nor dev dependencies, resulting in a smaller image size.
+
+To [build your image](https://docs.docker.com/engine/reference/commandline/build) run: `docker build -t <image-name> .`
+
+To [run your image](https://docs.docker.com/engine/reference/run) run: `docker run -p 80:80 <image-name>`
+
+> If you haven't used Docker before, you can get started with it [here](https://www.docker.com/get-started).
 
 ## 👤 Author
 
